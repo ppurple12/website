@@ -25,7 +25,7 @@ function Home() {
           <h2 className="post-title">Evan's Research Opportunity II</h2>
           <p className="post-meta">By Evanth Wells · April 29, 2025</p>
           <div class="post-image-wrapper">
-            <img src="/usra.jpg" alt="Post" class="post-image" />
+            <img src={`${process.env.PUBLIC_URL}/usra.jpg`} alt="Post" class="post-image" />
           </div>
           <p className="post-content">
           Evan Wells is excited to spend another summer as a Research Assistant, having once again been selected 

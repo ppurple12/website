@@ -46,13 +46,13 @@ function App() {
           {/* Social Media Links */}
           <div className="social-links">
           <a href="mailto:edwells522@my.nipissingu.ca?subject=Message from webpage" target="_blank" rel="noopener noreferrer">
-              <img src="/mail-logo.png" alt="Mail" />
+              <img src={`${process.env.PUBLIC_URL}/mail-logo.png`}  alt="Mail" />
             </a>
             <a href="https://www.linkedin.com/in/evan-wells12/" target="_blank" rel="noopener noreferrer">
-              <img src="/linked-logo.png" alt="LinkedIn" /> 
+              <img src={`${process.env.PUBLIC_URL}/linked-logo.png`}  alt="LinkedIn" /> 
             </a>
             <a href="https://github.com/ppurple12" target="_blank" rel="noopener noreferrer">
-              <img src="/git-logo.png" alt="GitHub" />
+              <img src={`${process.env.PUBLIC_URL}/git-logo.png`}  alt="GitHub" />
             </a>
           </div>
       </footer>

@@ -11,7 +11,7 @@ function Posts() {
           <h2 className="post-title">Evan's Research Opportunity II</h2>
           <p className="post-meta">By Devan Wells · April 29, 2025</p>
           <div class="post-image-wrapper">
-            <img src="usra.jpg" alt="Post" class="post-image" />
+            <img src={`${process.env.PUBLIC_URL}/usra.jpg`} alt="Post" class="post-image" />
           </div>
           <p className="post-content">
           Evan Wells is excited to spend another summer as a Research Assistant, having once again been selected 
@@ -35,7 +35,7 @@ function Posts() {
           <h2 className="post-title">Presentation at SysCon 2025</h2>
           <p className="post-meta">By Evaniel Wells · April 10, 2025</p>
           <div className="post-image-wrapper">
-            <img src="syscon.jpg" alt="Post" className="post-image" />
+            <img src={`${process.env.PUBLIC_URL}/syscon.jpg`} alt="Post" className="post-image" />
           </div>
           <p className="post-content">
             Today marks a momentous occasion for Evan Wells, as he had the opportunity to present his research at IEEE's International Systems Conference—SysCon 2025—in Montreal.
@@ -56,7 +56,7 @@ function Posts() {
         <h2 className="post-title">Evan's Dog Turns 6!</h2>
         <p className="post-meta">By Evan Walls · Febuary 28, 2025</p>
         <div className="post-image-wrapper">
-          <img src="mollie.png" alt="Evan's Dog Mollie" className="post-image" />
+          <img src={`${process.env.PUBLIC_URL}/mollie.png`} alt="Evan's Dog Mollie" className="post-image" />
         </div>
         <p className="post-content">
           Truthfully, this post serves as a buffer—placing the two <strong>Research Opportunity</strong> entries so closely didn’t feel visually balanced. 
@@ -77,7 +77,7 @@ function Posts() {
         <h2 className="post-title">Evan's Research Opportunity</h2>
         <p className="post-meta">By Evan Wellsley · April 29, 2024</p>
         <div className="post-image-wrapper">
-          <img src="usra.jpg" alt="Research Opportunity" className="post-image" />
+          <img src={`${process.env.PUBLIC_URL}/usra.jpg`} alt="Research Opportunity" className="post-image" />
         </div>
         <p className="post-content">
           In the summer of 2024, Evan Wells was given the opportunity to work as a research assistant at Nipissing University under the guidance of Dr. Haibin Zhu. 
@@ -102,7 +102,7 @@ function Posts() {
         <h2 className="post-title">Evan Wells Transfers to Nipissing University</h2>
         <p className="post-meta">By Evaniel Wells · September 6, 2023</p>
         <div className="post-image-wrapper">
-          <img src="nipissing.png" alt="Nipissing University Campus" className="post-image" />
+          <img src={`${process.env.PUBLIC_URL}/nipissing.png`} alt="Nipissing University Campus" className="post-image" />
         </div>
         <p className="post-content">
           In the fall of 2022, Evan Wells transferred from the University of Ottawa to <strong>Nipissing University</strong> to pursue his passion for 
@@ -126,7 +126,7 @@ function Posts() {
         <h2 className="post-title">Returning as a Technician for Conseil Scolaire Catholique Franco-Nord</h2>
         <p className="post-meta">By Evander Wells · July 2, 2022</p>
         <div className="post-image-wrapper">
-          <img src="conseil.jpg" alt="Evan working as a technician" className="post-image" />
+          <img src={`${process.env.PUBLIC_URL}/conseil.jpg`} alt="Evan working as a technician" className="post-image" />
         </div>
         <p className="post-content">
           After graduating high school, Evan Wells took on a new role within the community by returning to the <strong>Conseil scolaire
@@ -152,7 +152,7 @@ function Posts() {
         <h2 className="post-title">Evan Wells Graduates High School</h2>
         <p className="post-meta">By Evan Wellsington · June 22, 2022</p>
         <div className="post-image-wrapper">
-          <img src="graduate.jpg" alt="High School Graduation" className="post-image" />
+          <img src={`${process.env.PUBLIC_URL}/graduate.jpg`} alt="High School Graduation" className="post-image" />
         </div>
         <p className="post-content">
           In June 2022, Evan Wells (second from the left) officially graduated from high school, marking the end of an important chapter in 

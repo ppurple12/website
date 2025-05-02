@@ -28,7 +28,7 @@ const About = () => {
           There’s something calming about just heading out and zoning in on the rhythm. These days, I try to run a few 
           times a week and see if I can beat my last time or distance.
           </p>
-          <img src="shoes.jpg" alt="Project Screenshot" className="hobby-image"></img>
+          <img src={`${process.env.PUBLIC_URL}/shoes.jpg`} alt="Project Screenshot" className="hobby-image"></img>
         </div>
         <div className="hobby-box">
           <img src="pokemon.png" alt="Pokemon Cards" className="hobby-icon" />
@@ -38,7 +38,7 @@ const About = () => {
           and hunting for cool pulls. It’s a nice mix of nostalgia and just a fun hobby to unwind with
           —even if I tell myself it's for the “investment.”
           </p>
-          <img src="cards.jpg" alt="Project Screenshot" className="hobby-image"></img>
+          <img src={`${process.env.PUBLIC_URL}/cards.jpg`} alt="Project Screenshot" className="hobby-image"></img>
         </div>
         <div className="hobby-box">
           <img src="games0.png" alt="Gaming" className="hobby-icon" />
@@ -48,7 +48,7 @@ const About = () => {
            whether it’s something laid-back or competitive. My favorites right now are Overwatch, Brawlhalla 
            and a board game called King’s Cribbage.
           </p>
-          <img src="desk.jpg" alt="Project Screenshot" className="hobby-image"></img>
+          <img src={`${process.env.PUBLIC_URL}/desk.jpg`} alt="Project Screenshot" className="hobby-image"></img>
         </div>
       </div>
     </div>
