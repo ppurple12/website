@@ -15,7 +15,7 @@ function App() {
         <nav>
           <div className="flex">
             <a href="/" className="flex  items-center transform scale-110 hover:scale-125 transition duration-300">
-              <img src="/logo.png" alt="Logo" className="h-12 w-auto" />
+              <img src="%PUBLIC_URL%/logo.png" alt="Logo" className="h-12 w-auto" />
             </a>
 
               <h1 className="nav-heading">My Portfolio</h1>
