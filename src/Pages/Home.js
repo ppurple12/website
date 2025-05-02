@@ -43,7 +43,7 @@ function Home() {
           </p>
         </div>
         <div class="post-button-container">
-          <Link href="/posts" class="post-button">View All</Link>
+          <Link to="/posts" class="post-button">View All</Link>
         </div>
       </section>
 
