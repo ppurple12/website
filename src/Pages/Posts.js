@@ -152,7 +152,7 @@ function Posts() {
         <h2 className="post-title">Evan Wells Graduates High School</h2>
         <p className="post-meta">By Evan Wellsington · June 22, 2022</p>
         <div className="post-image-wrapper">
-          <img src={`${process.env.PUBLIC_URL}/graduate.jpg`} alt="High School Graduation" className="post-image" />
+          <img src={`${process.env.PUBLIC_URL}/graduate.JPG`} alt="High School Graduation" className="post-image" />
         </div>
         <p className="post-content">
           In June 2022, Evan Wells (second from the left) officially graduated from high school, marking the end of an important chapter in 

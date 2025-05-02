@@ -38,7 +38,7 @@ const About = () => {
           and hunting for cool pulls. It’s a nice mix of nostalgia and just a fun hobby to unwind with
           —even if I tell myself it's for the “investment.”
           </p>
-          <img src={`${process.env.PUBLIC_URL}/cards.jpg`} alt="Project Screenshot" className="hobby-image"></img>
+          <img src={`${process.env.PUBLIC_URL}/cards.JPG`} alt="Project Screenshot" className="hobby-image"></img>
         </div>
         <div className="hobby-box">
           <img src="games0.png" alt="Gaming" className="hobby-icon" />

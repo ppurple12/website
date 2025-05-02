@@ -19,7 +19,7 @@ function Projects() {
         </p>
       </div>
       <div className="project-image-wrapper">
-        <img src={`${process.env.PUBLIC_URL}/matlab.png`} alt="Project Screenshot" className="project-image" />
+        <img src={`${process.env.PUBLIC_URL}/matlab.PNG`} alt="Project Screenshot" className="project-image" />
       </div>
     </div>
 
@@ -39,7 +39,7 @@ function Projects() {
         </p>
       </div>
       <div className="project-image-wrapper">
-        <img src={`${process.env.PUBLIC_URL}/muscles.png`} alt="Project Screenshot" className="project-image" />
+        <img src={`${process.env.PUBLIC_URL}/muscles.PNG`} alt="Project Screenshot" className="project-image" />
       </div>
     </div>
    
@@ -59,7 +59,7 @@ function Projects() {
         </p>
       </div>
       <div className="project-image-wrapper">
-        <img src={`${process.env.PUBLIC_URL}/tickets.png`} alt="Project Screenshot" className="project-image" />
+        <img src={`${process.env.PUBLIC_URL}/tickets.PNG`} alt="Project Screenshot" className="project-image" />
       </div>
     </div>
   </section>
