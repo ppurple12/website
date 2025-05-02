@@ -14,9 +14,9 @@ function App() {
       <div>
         <nav>
           <div className="flex">
-            <a href="/" className="flex  items-center transform scale-110 hover:scale-125 transition duration-300">
-            <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="h-12 w-auto" />
-            </a>
+            <Link href="/" className="flex  items-center transform scale-110 hover:scale-125 transition duration-300">
+            <img src="/logo.png" alt="Logo" className="h-12 w-auto" />
+            </Link>
 
               <h1 className="nav-heading">My Portfolio</h1>
           </div>
@@ -46,13 +46,13 @@ function App() {
           {/* Social Media Links */}
           <div className="social-links">
           <a href="mailto:edwells522@my.nipissingu.ca?subject=Message from webpage" target="_blank" rel="noopener noreferrer">
-              <img src="%PUBLIC_URL%/mail-logo.png" alt="Mail" />
+              <img src="/mail-logo.png" alt="Mail" />
             </a>
             <a href="https://www.linkedin.com/in/evan-wells12/" target="_blank" rel="noopener noreferrer">
-              <img src="%PUBLIC_URL%/linked-logo.png" alt="LinkedIn" /> 
+              <img src="/linked-logo.png" alt="LinkedIn" /> 
             </a>
             <a href="https://github.com/ppurple12" target="_blank" rel="noopener noreferrer">
-              <img src="%PUBLIC_URL%/git-logo.png" alt="GitHub" />
+              <img src="/git-logo.png" alt="GitHub" />
             </a>
           </div>
       </footer>
