@@ -10,7 +10,7 @@ import Posts from "./Pages/Posts";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/website">
       <div>
         <nav>
           <div className="flex">
