@@ -1,6 +1,6 @@
 import React from "react";
 import './styles.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Pages/Home";
 import Projects from "./Pages/School/Projects";
 import Resume from "./Pages/School/Resume";
@@ -15,15 +15,15 @@ function App() {
         <nav>
           <div className="flex">
             <a href="/" className="flex  items-center transform scale-110 hover:scale-125 transition duration-300">
-              <img src="%PUBLIC_URL%/logo.png" alt="Logo" className="h-12 w-auto" />
+              <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="h-12 w-auto" />
             </a>
 
               <h1 className="nav-heading">My Portfolio</h1>
           </div>
           <div className="horizontal-spacing">
-            <a href="/projects" className="font-normal text-white hover:font-bold hover:text-purple-500 transition duration-300">Projects</a>
-            <a href="/resume" className="font-normal text-white hover:font-bold hover:text-purple-600 transition duration-300">Resume</a>
-            <a href="/about" className="font-normal text-white hover:font-bold hover:text-purple-600 transition duration-300">About</a>
+            <Link to="/projects" className="font-normal text-white hover:font-bold hover:text-purple-500 transition duration-300">Projects</Link>
+            <Link to="/resume" className="font-normal text-white hover:font-bold hover:text-purple-600 transition duration-300">Resume</Link>
+            <Link to="/about" className="font-normal text-white hover:font-bold hover:text-purple-600 transition duration-300">About</Link>
           </div>
         </nav>
 
