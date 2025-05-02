@@ -2,7 +2,7 @@
   "name": "site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ppurple12.github.io/site",
+  "homepage": "https://ppurple12.github.io/website",
   "dependencies": {
     "cra-template-tailwindcss": "4.0.1",
     "react": "^19.0.0",
