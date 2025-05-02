@@ -31,14 +31,14 @@ const About = () => {
           <img src={`${process.env.PUBLIC_URL}/shoes.jpg`} alt="Project Screenshot" className="hobby-image"></img>
         </div>
         <div className="hobby-box">
-          <img src="pokemon.png" alt="Pokemon Cards" className="hobby-icon" />
+          <img src="pokemon.PNG" alt="Pokemon Cards" className="hobby-icon" />
           <h3 className="hobby-title">Collecting Pokemon Cards</h3>
           <p className="hobby-description">
           I’ve recently gotten back into collecting Pokémon cards. It’s fun opening packs, organizing them by sets, 
           and hunting for cool pulls. It’s a nice mix of nostalgia and just a fun hobby to unwind with
           —even if I tell myself it's for the “investment.”
           </p>
-          <img src={`${process.env.PUBLIC_URL}/cards.JPG`} alt="Project Screenshot" className="hobby-image"></img>
+          <img src={`${process.env.PUBLIC_URL}/cards.jpg`} alt="Project Screenshot" className="hobby-image"></img>
         </div>
         <div className="hobby-box">
           <img src="games0.png" alt="Gaming" className="hobby-icon" />
