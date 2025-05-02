@@ -14,7 +14,7 @@ function App() {
       <div>
         <nav>
           <div className="flex">
-            <Link href="/" className="flex  items-center transform scale-110 hover:scale-125 transition duration-300">
+            <Link to="/" className="flex  items-center transform scale-110 hover:scale-125 transition duration-300">
             <img src="/logo.png" alt="Logo" className="h-12 w-auto" />
             </Link>
 
