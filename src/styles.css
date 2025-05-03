@@ -393,3 +393,128 @@ footer.footer-section {
   font-size: 1rem;
   color: #333;
 }
+
+/* === Responsive Design for Mobile Devices === */
+@media (max-width: 768px) {
+
+  .container {
+    max-width: 95%;
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .horizontal-spacing {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .horizontal-spacing > *:first-child {
+    margin-left: 0;
+  }
+
+  .intro-section {
+    padding: 2rem 1rem;
+  }
+
+  .intro-heading {
+    font-size: 1.75rem;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .post-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .post-box {
+    padding: 1rem;
+    max-width: 95%;
+  }
+
+  .post-title {
+    font-size: 1.5rem;
+  }
+
+  .post-meta,
+  .post-content {
+    font-size: 0.9rem;
+  }
+
+  .post-image {
+    width: 100%;
+  }
+
+  footer.footer-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .resume-section-title {
+    font-size: 1.25rem;
+  }
+
+  .skills-list {
+    grid-template-columns: 1fr;
+  }
+
+  .project-entry {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-image-wrapper {
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .project-title {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .about-container {
+    padding: 0 1rem;
+  }
+
+  .profile-picture {
+    width: 50%;
+    height: auto;
+  }
+
+  .hobby-box {
+    width: 90%;
+  }
+
+  .hobby-icon {
+    width: 35%;
+    height: auto;
+  }
+
+  .hobby-title {
+    font-size: 1.1rem;
+  }
+
+  .hobby-description {
+    font-size: 0.95rem;
+  }
+}
